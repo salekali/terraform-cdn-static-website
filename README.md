@@ -20,7 +20,7 @@ terraform apply
 ```
 
 Copy the index.html file into the 'content' bucket created in the previous step.
-Open up a browser, and go to https://<yourdomain>/index.html, and the CDN should respond with the uploaded index.html file. Logs can be seen of this event in the 'logs' bucket.
+Open up a browser, and go to https://\<yourdomain\</index.html, and the CDN should respond with the uploaded index.html file. Logs can be seen of this event in the 'logs' bucket.
 
 Finally, to delete the resources deployed in the previous step, run the following:
 ```sh
